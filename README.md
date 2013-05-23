@@ -1,7 +1,7 @@
 Better Pages
 =========================
 
-This accessory adds extra page/entry data to the native ExpressionEngine Pages module list view using an AJAX call to append data to the standard data. At present this includes additional columns for:
+This accessory adds extra page/entry data to the native ExpressionEngine Pages module list view using AJAX calls. It's quick and dirty but it does the job. At present this includes additional columns for:
 
 * Entry ID
 * Title
