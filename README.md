@@ -6,6 +6,6 @@ This accessory adds extra page/entry data to the native ExpressionEngine Pages m
 * Entry ID
 * Title
 * Status
-* Template 
+* Template Group / Template Name
 
 In time I plan to add 'sorting' to the data table to make it easier to work with sites with large numbers of static pages.
