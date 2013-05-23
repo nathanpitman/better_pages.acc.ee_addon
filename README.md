@@ -1,4 +1,4 @@
-better_pages.acc.ee_addon
+Better Pages
 =========================
 
-This accessory adds extra page/entry data to the pages module list view.
+This accessory adds extra page/entry data to the native ExpressionEngine Pages module list view.
