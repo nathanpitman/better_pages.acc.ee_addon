@@ -48,7 +48,7 @@ class Better_pages_acc
             $("#accessoryTabs").find("a.'. $this->id .'").parent("li").remove();
         ';
         
-        if(REQ == 'CP' AND $this->EE->input->get('module') == 'pages')
+        if(REQ == 'CP' AND ($this->EE->input->get('module') == 'pages') AND ($this->EE->input->get('method') != 'configuration'))
         {
         
 			$this->EE->load->library('javascript');
@@ -159,12 +159,6 @@ class Better_pages_acc
 		echo($return);
 		exit;
 		
-	}
-	
-	function install() {
-		//$this->EE =& get_instance();
-		//$this->EE->db->where('class', 'Better_pages_acc')
-		//	->update('accessories', array('controllers' => 'addons_modules'));
 	}
 	
 }
